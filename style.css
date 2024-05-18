@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+font-family : "Platypi", serif;
+list-style: none;
+}
+
+
+h5 , p ,
+.nav-link{
+	text-transform: capitalize;
+	color: var(--textcolor);
+}
+html{
+	scroll-behavior: smooth;
+}
+.fa-a{
+	color:var(--textcolor);
+}
+a{
+	text-decoration: none;
+	color: var(--textcolor);
+}
+a:hover{
+	color: var(--textcolor);
+	font-size: 1.125rem;
+	transition: all .2s ease-in-out;
+}
+:root{
+	--darkcolor:#C9A9A6;
+	--textcolor:#23395d;
+}
+.navbar-brand{
+	color: var(--textcolor);
+}
+.navbar{
+	background:var(--darkcolor);
+}
+.nav-link{
+	color: var(--textcolor);
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.main-title::after{
+	content:'';
+	width: 150px;
+	height: 2px;
+	background-color: var(--textcolor);
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.navbar-toggler{
+	color: var(--textcolor);
+	font-size: 1rem;
+	text-transform: uppercase;
+	border-color:var(--darkcolor);
+}
+.navbar-toggler:focus{
+	box-shadow: none;
+}
+.navbar-toggler[aria-expanded="true"]{
+	border-color: var(--darkcolor);
+}
+/*landing section */
+.landing{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('img/portfilio2.jpg');
+	background-repeat:no-repeat ;
+	background-size:center;
+	min-width: 100%;
+    min-height:calc(100vh - 86px);
+}
+.mynam{
+	font-size: 3rem;
+	font-weight: 600;
+	color:var(--textcolor);
+}
+.myjob{
+font-size: 1.5rem;
+font-weight: 500;
+color:var(--textcolor);	
+}
+hr{
+    
+	border: 1px solid;
+	border-color: var(--darkcolor);
+	padding: 1px;
+}
+.read , .btn-sec ,.btn-third{
+	cursor: pointer;	
+	color:var(--textcolor);
+	font-weight: 700;
+	text-transform: capitalize;
+
+}
+.btn-third{
+	background-color: white;
+}
+.btn-sec{
+	width: 80%;
+	height: 20px;
+	background-color: var(--darkcolor);
+	border-radius: 25px;
+	font-size: 1.125rem;
+}
+.read:hover,
+.btn-sec:hover{
+	border:2px solid var(--textcolor);
+	border-radius: 5px;
+	transition: all .2s ease-in-out ;
+
+}
+/*port section*/
+.card{
+	width:250px;
+	gap:15px;
+	border-radius: 15px;
+}
+
+.card:hover{
+	box-sizing: border-box;
+	text-shadow: none;
+	cursor: pointer;
+transition: all .2s ease-in-out ;
+-webkit-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+.porttitle{
+	color: var(--textcolor);
+	font-weight:700;
+	font-size: 4rem;
+}
+.portsec{
+	background-image: url('img/cont.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	    min-height:calc(100vh - 86px);
+
+}
+.portsec img{
+	width: 200px;
+	height: 200px;
+}
+.btn-primary{
+	border:none;
+	outline:none;
+	background-color: transparent;
+	color: var(--textcolor);
+	font-size: .75rem;
+	font-weight: 400;
+}
+.btn-primary:hover{
+	background-color: transparent;
+	color: var(--textcolor);
+font-size: .75rem;
+
+}
+
+/*aboutsection*/
+.abotdes{
+	font-size: 2rem;
+	font-weight: 600;
+	color: var(--textcolor);
+}
+.aboutsec{
+	    min-height:calc(100vh - 86px);
+
+}
+.about-list li,
+.deu{
+	font-size: 1rem;
+	font-weight: 500;
+	text-transform: uppercase;
+
+}
+.pro{
+	background-color:var(--textcolor);
+}
+.progress{
+	width: 70%;
+	height: 10px;
+	border-radius: 5px;
+
+}
+.titl{
+	color: var(--textcolor);
+	font-size: 2rem;
+	font-weight: 700;
+}
+.icon{
+	color: var(--textcolor);
+}
+.icon4{
+	color:#1877f2;
+	
+}
+.icon3{
+	color:#ff0000;}
+	.icon2{
+		color: #075e54;;
+	}
+	/*contactsec*/
+.contacsec{
+	background-image: url('img/cont.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 100%;
+
+}
+.media1,
+.media2,
+.media3,
+.media4
+{
+	font-size: 2rem;
+	color: var(--textcolor);
+	font-weight: 700;
+	cursor: pointer;
+}
+.link{
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--textcolor);
+}
+
+.title{
+	font-size: 1.125rem;
+	color: var(--textcolor);
+	font-weight: 500;
+}
+.formtit{
+	font-size: 1.125rem;
+}
+.formsec{
+	width: 50%;
+}
+.media31{
+	text-transform: lowercase;
+}
+.btn-third{
+	width: 50%;
+	border-radius: 25px;
+	border: 3px solid var(--textcolor);
+}
+.invalid input:required:invalid {
+  background: #BE4C54;
+}
+
+/* Mark valid inputs during .invalid state */
+.invalid input:required:valid {
+  background: #17D654;
+}
+/*footer*/
+.footer{
+	background-color: var(--darkcolor);
+	min-width: 100%;
+	}
+
+.footer .copyright > span{
+color: var(--textcolor);
+}
+.footer .copyright div span{
+	color: var(--textcolor);
+}
+.footer .contactus ul svg{
+width: 20px;
+height: 20px;
+}
+.footer .face{
+	color: #1877f2;
+}
+.footer .what{
+	color:#075e54;
+}
+.footer .twitt{
+	color: #14171a;
+}
+.footer .inst{
+		color: #fd1d1d;
+
+}
+.footer .gmail{
+	color:#ff0000 ;
+}
